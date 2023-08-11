@@ -1,0 +1,1370 @@
+{
+    "Abs": {
+        "ops": [
+            "tf.math.abs"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "Acos": {
+        "ops": [
+            "tf.math.acos"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "Acosh": {
+        "ops": [
+            "tf.math.acosh"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Add": {
+        "ops": [
+            "tf.math.add"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "And": {
+        "ops": [
+            "tf.math.logical_and"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ArgMin": {
+        "ops": [
+            "tf.math.argmin"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Asin": {
+        "ops": [
+            "tf.math.asin"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "Asinh": {
+        "ops": [
+            "tf.math.asinh"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Atan": {
+        "ops": [
+            "tf.math.atan"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Atanh": {
+        "ops": [
+            "tf.math.atanh"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "AveragePool": {
+        "ops": [
+            "tf.keras.layers.AveragePooling1D",
+            "tf.keras.layers.AveragePooling2D",
+            "tf.keras.layers.AveragePooling3D"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "BatchNormalization": {
+        "ops": [
+            "tf.nn.batch_normalization"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Bernoulli": {
+        "ops": [
+            "tf.compat.v1.distributions.Bernoulli"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "BitShift": {
+        "ops": [
+            "tf.bitwise.right_shift",
+            "tf.bitwise.left_shift"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Cast": {
+        "ops": [
+            "tf.cast"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Ceil": {
+        "ops": [
+            "tf.math.ceil"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Celu": {
+        "ops": [
+            "tf.cast",
+            "tf.exp"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Clip": {
+        "ops": [
+            "tf.convert_to_tensor",
+            "tf.nn.relu",
+            "tf.nn.relu6",
+            "tf.clip_by_value",
+            "tf.maximum",
+            "tf.minimum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Compress": {
+        "ops": [
+            "tf.experimental.numpy.compress"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Concat": {
+        "ops": [
+            "tf.concat"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ConcatFromSequence": {
+        "ops": [
+            "tf.less",
+            "tf.while_loop",
+            "tf.gather",
+            "tf.range",
+            "tf.TensorShape",
+            "tf.sparse.to_dense",
+            "tf.concat",
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Constant": {
+        "ops": [
+            "tf.constant"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ConstantOfShape": {
+        "ops": [
+            "tf.cast",
+            "tf.constant",
+            "tf.fill"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Conv": {
+        "ops": [
+            "tf.keras.layers.Conv1D",
+            "tf.keras.layers.Conv2D",
+            "tf.keras.layers.Conv3D",
+            "tf.nn.convolution",
+            "tf.nn.depthwise_conv2d"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ConvTranspose": {
+        "ops": [
+            "tf.nn.conv1d_transpose",
+            "tf.nn.conv3d_transpose",
+            "tf.nn.conv2d_transpose",
+            "tf.nn.convXd_transpose"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Cos": {
+        "ops": [
+            "tf.math.cos"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Cosh": {
+        "ops": [
+            "tf.math.cosh"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "CumSum": {
+        "ops": [
+            "tf.math.cumsum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "DepthToSpace": {
+        "ops": [
+            "tf.nn.depth_to_space",
+            "tf.reshape"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "DequantizeLinear": {
+        "ops": [
+            "tf.subtract",
+            "tf.cast",
+            "tf.reshape",
+            "tf.multiply"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Det": {
+        "ops": [
+            "tf.linalg.det"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Div": {
+        "ops": [
+            "tf.math.divide"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Dropout": {
+        "ops": [
+            "tf.nn.dropout"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "DynamicQuantizeLinear": {
+        "ops": [
+            "tf.cast",
+            "tf.math.reduce_max",
+            "tf.math.reduce_min",
+            "tf.clip_by_value",
+            "tf.math.minimum",
+            "tf.round",
+            "tf.math.maximum"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Einsum": {
+        "ops": [
+            "tf.einsum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Elu": {
+        "ops": [
+            "tf.nn.elu",
+            "tf.cast",
+            "tf.exp"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Equal": {
+        "ops": [
+            "tf.math.equal"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Erf": {
+        "ops": [
+            "tf.math.erf"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "Exp": {
+        "ops": [
+            "tf.math.exp"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Expand": {
+        "ops": [
+            "tf.ones",
+            "tf.cast"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "EyeLike": {
+        "ops": [
+            "tf.constant",
+            "tf.pad",
+            "tf.eye",
+            "tf.minimum",
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Flatten": {
+        "ops": [
+            "tf.keras.layers.Flatten",
+            "tf.reshape"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Floor": {
+        "ops": [
+            "tf.math.floor"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "FusedConv": {
+        "ops": [
+            "tf.nn.leaky_relu",
+            "tf.nn.relu",
+            "tf.nn.tanh",
+            "tf.nn.sigmoid",
+            "tf.nn.relu6",
+            "tf.clip_by_value",
+            "tf.maximum",
+            "tf.ops.Conv",
+            "tf.minimum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Gather": {
+        "ops": [
+            "tf.gather"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "GatherElements": {
+        "ops": [
+            "tf.meshgrid",
+            "tf.gather_nd",
+            "tf.constant",
+            "tf.rank",
+            "tf.range",
+            "tf.expand_dims",
+            "tf.concat",
+            "tf.transpose",
+            "tf.tensor_scatter_nd_update",
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "GatherND": {
+        "ops": [
+            "tf.gather_nd"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "Gemm": {
+        "ops": [
+            "tf.matmul",
+            "tf.keras.layers.Flatten",
+            "tf.cast",
+            "tf.transpose"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "GlobalAveragePool": {
+        "ops": [
+            "tf.keras.layers.GlobalAveragePooling1D",
+            "tf.keras.layers.GlobalAveragePooling2D",
+            "tf.keras.layers.GlobalAveragePooling3D"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "GlobalLpPool": {
+        "ops": [
+            "tf.norm"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "GlobalMaxPool": {
+        "ops": [
+            "tf.reduce_max"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Greater": {
+        "ops": [
+            "tf.math.greater"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "GreaterOrEqual": {
+        "ops": [
+            "tf.math.greater_equal"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "GridSample": {
+        "ops": [
+            "tf.cast",
+            "tf.gather",
+            "tf.split",
+            "tf.reshape",
+            "tf.tile",
+            "tf.math.floor",
+            "tf.transpose"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Hardmax": {
+        "ops": [
+            "tf.one_hot",
+            "tf.range",
+            "tf.reshape",
+            "tf.reduce_prod",
+            "tf.concat",
+            "tf.transpose",
+            "tf.argmax"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "HardSigmoid": {
+        "ops": [
+            "tf.maximum",
+            "tf.minimum"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "HardSwish": {
+        "ops": [
+            "tf.nn.relu6"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "Identity": {
+        "ops": [
+            "tf.identity_n",
+            "tf.identity"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "If": {
+        "ops": [
+            "tf.constant"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Input": {
+        "ops": [
+            "tf.keras.Input"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "InstanceNormalization": {
+        "ops": [
+            "tf.nn.batch_normalization"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Inverse": {
+        "ops": [
+            "tf.linalg.inv"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "IsInf": {
+        "ops": [
+            "tf.math.is_inf"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "IsNaN": {
+        "ops": [
+            "tf.math.is_nan"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "LayerNormalization": {
+        "ops": [
+            "tf.math.sqrt",
+            "tf.math.multiply",
+            "tf.math.divide",
+            "tf.math.add",
+            "tf.reduce_mean",
+            "tf.math.subtract"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "LeakyRelu": {
+        "ops": [
+            "tf.nn.leaky_relu"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "Less": {
+        "ops": [
+            "tf.math.less"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "LessOrEqual": {
+        "ops": [
+            "tf.math.less_equal"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Log": {
+        "ops": [
+            "tf.math.log"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "LogSoftmax": {
+        "ops": [
+            "tf.nn.log_softmax"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "LpNormalization": {
+        "ops": [
+            "tf.math.truediv",
+            "tf.norm"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "LRN": {
+        "ops": [
+            "tf.nn.lrn"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "MatMul": {
+        "ops": [
+            "tf.matmul"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "MatMulInteger": {
+        "ops": [
+            "tf.subtract",
+            "tf.matmul",
+            "tf.cast",
+            "tf.reshape",
+            "tf.function",
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Max": {
+        "ops": [
+            "tf.maximum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "MaxPool": {
+        "ops": [
+            "tf.nn.pool",
+            "tf.nn.dilation2d",
+            "tf.nn.max_pool"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "MaxUnpool": {
+        "ops": [
+            "tf.cast",
+            "tf.reshape",
+            "tf.reduce_prod",
+            "tf.scatter_nd",
+            "tf.pad"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Mean": {
+        "ops": [
+            "tf.reduce_mean"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "MeanVarianceNormalization": {
+        "ops": [
+            "tf.constant",
+            "tf.sqrt",
+            "tf.nn.moments"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Min": {
+        "ops": [
+            "tf.minimum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Mish": {
+        "ops": [
+            "tf.nn.softplus",
+            "tf.tanh"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Mod": {
+        "ops": [
+            "tf.math.mod"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Mul": {
+        "ops": [
+            "tf.math.multiply"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Multinomial": {
+        "ops": [
+            "tf.random.categorical"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Neg": {
+        "ops": [
+            "tf.math.negative"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "NonMaxSuppression": {
+        "ops": [
+            "tf.where",
+            "tf.divide",
+            "tf.concat",
+            "tf.transpose",
+            "tf.squeeze",
+            "tf.subtract",
+            "tf.constant",
+            "tf.function",
+            "tf.shape",
+            "tf.gather",
+            "tf.slice",
+            "tf.equal",
+            "tf.pad",
+            "tf.cast",
+            "tf.range",
+            "tf.add",
+            "tf.image.non_max_suppression"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "NonZero": {
+        "ops": [
+            "tf.where",
+            "tf.not_equal",
+            "tf.zeros_like",
+            "tf.transpose"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Not": {
+        "ops": [
+            "tf.math.logical_not"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "OneHot": {
+        "ops": [
+            "tf.one_hot"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Or": {
+        "ops": [
+            "tf.math.logical_or"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Pad": {
+        "ops": [
+            "tf.pad"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Pow": {
+        "ops": [
+            "tf.math.pow"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "PRelu": {
+        "ops": [
+            "tf.nn.relu"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "QLinearAdd": {
+        "ops": [
+            "tf.subtract",
+            "tf.cast",
+            "tf.add",
+            "tf.divide",
+            "tf.multiply"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "QLinearConcat": {
+        "ops": [
+            "tf.cast",
+            "tf.add",
+            "tf.reshape",
+            "tf.divide",
+            "tf.concat"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "QLinearConv": {
+        "ops": [
+            "tf.nn.depthwise_conv2d",
+            "tf.nn.convolution"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "QLinearLeakyRelu": {
+        "ops": [
+            "tf.nn.leaky_relu"
+        ],
+        "pseudo_op": true,
+        "hard_template": false
+    },
+    "QLinearMatMul": {
+        "ops": [
+            "tf.subtract",
+            "tf.matmul",
+            "tf.cast",
+            "tf.saturate_cast",
+            "tf.add",
+            "tf.reshape",
+            "tf.divide",
+            "tf.round",
+            "tf.multiply"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "QLinearMul": {
+        "ops": [
+            "tf.subtract",
+            "tf.cast",
+            "tf.add",
+            "tf.divide",
+            "tf.multiply"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "QLinearSigmoid": {
+        "ops": [
+            "tf.subtract",
+            "tf.cast",
+            "tf.nn.sigmoid",
+            "tf.add",
+            "tf.divide",
+            "tf.multiply"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "QLinearSoftmax": {
+        "ops": [
+            "tf.subtract",
+            "tf.cast",
+            "tf.add",
+            "tf.divide",
+            "tf.nn.softmax",
+            "tf.multiply"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "QuantizeLinear": {
+        "ops": [
+            "'QuantizeLinear'",
+            "tf.cast",
+            "tf.saturate_cast",
+            "tf.add",
+            "tf.reshape",
+            "tf.divide",
+            "tf.round"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "RandomNormal": {
+        "ops": [
+            "tf.random.normal"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "RandomNormalLike": {
+        "ops": [
+            "tf.random.normal"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "RandomUniform": {
+        "ops": [
+            "tf.random.uniform"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "RandomUniformLike": {
+        "ops": [
+            "tf.random.uniform"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Range": {
+        "ops": [
+            "tf.range"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Reciprocal": {
+        "ops": [
+            "tf.math.reciprocal"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceL1": {
+        "ops": [
+            "tf.norm"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceL2": {
+        "ops": [
+            "tf.norm"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceLogSum": {
+        "ops": [
+            "tf.reduce_sum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceLogSumExp": {
+        "ops": [
+            "tf.math.reduce_logsumexp"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceMax": {
+        "ops": [
+            "tf.math.reduce_max"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceMean": {
+        "ops": [
+            "tf.math.reduce_mean"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceMin": {
+        "ops": [
+            "tf.math.reduce_min"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceProd": {
+        "ops": [
+            "tf.math.reduce_prod"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceSum": {
+        "ops": [
+            "tf.reduce_sum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReduceSumSquare": {
+        "ops": [
+            "tf.reduce_sum"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Relu": {
+        "ops": [
+            "tf.nn.relu"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Reshape": {
+        "ops": [
+            "tf.reshape"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Resize": {
+        "ops": [
+            "tf.image.resize",
+            "tf.compat.v1.image.resize_bicubic",
+            "tf.compat.v1.image.resize_bilinear",
+            "tf.compat.v1.image.resize_nearest_neighbor",
+            "tf.image.crop_and_resize",
+            "tf.image.ResizeMethod.BILINEAR",
+            "tf.image.ResizeMethod.BICUBIC",
+            "tf.image.ResizeMethod.NEAREST_NEIGHBOR"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ReverseSequence": {
+        "ops": [
+            "tf.reverse_sequence"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "RoiAlign": {
+        "ops": [
+            "tf.cast",
+            "tf.split",
+            "tf.pad",
+            "tf.image.crop_and_resize",
+            "tf.nn.avg_pool",
+            "tf.nn.max_pool",
+            "tf.concat",
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Round": {
+        "ops": [
+            "tf.math.round"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Scatter": {
+        "ops": [
+            "tf.ops.ScatterElements"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ScatterElements": {
+        "ops": [
+            "tf.meshgrid",
+            "tf.cast",
+            "tf.range",
+            "tf.reshape",
+            "tf.expand_dims",
+            "tf.concat",
+            "tf.transpose",
+            "tf.tensor_scatter_nd_update",
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "ScatterND": {
+        "ops": [
+            "tf.tensor_scatter_nd_update"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Selu": {
+        "ops": [
+            "tf.reduce_min",
+            "tf.exp",
+            "tf.clip_by_value",
+            "tf.reduce_max"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "SequenceAt": {
+        "ops": [
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "SequenceConstruct": {
+        "ops": [
+            "tf.expand_dims",
+            "tf.concat",
+            "tf.RaggedTensor.from_tensor",
+            "tf.ragged.constant"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "SequenceEmpty": {
+        "ops": [
+            "tf.cast",
+            "tf.RaggedTensor.from_row_lengths",
+            "tf.RaggedTensor.from_sparse"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "SequenceErase": {
+        "ops": [
+            "tf.concat"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "SequenceInsert": {
+        "ops": [
+            "tf.cond",
+            "tf.equal",
+            "tf.expand_dims",
+            "tf.concat",
+            "tf.RaggedTensor.from_tensor"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "SequenceLength": {
+        "ops": [
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Shape": {
+        "ops": [
+            "tf.slice",
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Shrink": {
+        "ops": [
+            "tf.subtract",
+            "tf.less",
+            "tf.constant",
+            "tf.greater",
+            "tf.where",
+            "tf.fill",
+            "tf.add",
+            "tf.zeros"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Sigmoid": {
+        "ops": [
+            "tf.nn.sigmoid"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Sign": {
+        "ops": [
+            "tf.math.sign"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Sin": {
+        "ops": [
+            "tf.math.sin"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Sinh": {
+        "ops": [
+            "tf.math.sinh"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Size": {
+        "ops": [
+            "tf.size"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Slice": {
+        "ops": [
+            "tf.strided_slice"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Softmax": {
+        "ops": [
+            "tf.nn.softmax"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Softplus": {
+        "ops": [
+            "tf.math.softplus"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Softsign": {
+        "ops": [
+            "tf.nn.softsign"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "SpaceToDepth": {
+        "ops": [
+            "tf.nn.space_to_depth"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Split": {
+        "ops": [
+            "tf.split"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "SplitToSequence": {
+        "ops": [
+            "tf.split",
+            "tf.reshape",
+            "tf.tile",
+            "tf.squeeze",
+            "tf.expand_dims",
+            "tf.concat",
+            "tf.RaggedTensor.from_tensor",
+            "tf.ragged.constant"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Sqrt": {
+        "ops": [
+            "tf.math.sqrt"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Squeeze": {
+        "ops": [
+            "tf.identity",
+            "tf.squeeze"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Sub": {
+        "ops": [
+            "tf.math.subtract"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Sum": {
+        "ops": [
+            "tf.add_n"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Tan": {
+        "ops": [
+            "tf.math.tan"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Tanh": {
+        "ops": [
+            "tf.math.tanh"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "ThresholdedRelu": {
+        "ops": [
+            "tf.nn.relu",
+            "tf.sign"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Tile": {
+        "ops": [
+            "tf.tile"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "TopK": {
+        "ops": [
+            "tf.math.top_k",
+            "tf.cast",
+            "tf.negative",
+            "tf.squeeze"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Transpose": {
+        "ops": [
+            "tf.transpose"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Trilu": {
+        "ops": [
+            "tf.subtract",
+            "tf.linalg.band_part"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Unique": {
+        "ops": [
+            "tf.cast",
+            "tf.range",
+            "tf.reshape",
+            "tf.raw_ops.UniqueWithCountsV2",
+            "tf.unique",
+            "tf.math.unsorted_segment_min",
+            "tf.shape"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Unsqueeze": {
+        "ops": [
+            "tf.identity",
+            "tf.expand_dims",
+            "tf.reshape"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Upsample": {
+        "ops": [
+            "tf.cast",
+            "tf.image.resize",
+            "tf.image.ResizeMethod.BILINEAR",
+            "tf.image.ResizeMethod.NEAREST_NEIGHBOR"
+        ],
+        "pseudo_op": false,
+        "hard_template": true
+    },
+    "Where": {
+        "ops": [
+            "tf.where"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    },
+    "Xor": {
+        "ops": [
+            "tf.math.logical_xor"
+        ],
+        "pseudo_op": false,
+        "hard_template": false
+    }
+}

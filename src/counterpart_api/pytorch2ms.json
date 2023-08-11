@@ -1,0 +1,518 @@
+{
+    "aten::abs": {
+        "ops": [
+            "absolute"
+        ],
+        "hard_template": "False"
+    },
+    "aten::add_": {
+        "ops": [
+            "add_"
+        ],
+        "hard_template": "False"
+    },
+    "aten::add": {
+        "ops": [
+            "add"
+        ],
+        "hard_template": "False"
+    },
+    "aten::addmm": {
+        "ops": [
+            "Addmm"
+        ],
+        "hard_template": "False"
+    },
+    "aten::_convolution": {
+        "ops": [
+            "nn.Conv1d",
+            "nn.Conv2d",
+            "nn.Conv3d"
+        ],
+        "hard_template": "False"
+    },
+    "aten::cat": {
+        "ops": [
+            "P.Concat"
+        ],
+        "hard_template": "False"
+    },
+    "aten::chunk": {
+        "ops": [
+            "chunk"
+        ],
+        "hard_template": "False"
+    },
+    "aten::clamp": {
+        "ops": [
+            "P.clip_by_value"
+        ],
+        "hard_template": "False"
+    },
+    "aten::clone": {
+        "ops": [
+            "clone"
+        ],
+        "hard_template": "False"
+    },
+    "aten::copy_": {
+        "ops": [
+            "copy"
+        ],
+        "hard_template": "False"
+    },
+    "aten::copy": {
+        "ops": [
+            "copy"
+        ],
+        "hard_template": "False"
+    },
+    "aten::cos": {
+        "ops": [
+            "P.Cos"
+        ],
+        "hard_template": "False"
+    },
+    "aten::cumsum": {
+        "ops": [
+            "P.CumSum"
+        ],
+        "hard_template": "False"
+    },
+    "aten::constant_pad_nd": {
+        "ops": [
+            "nn.Pad"
+        ],
+        "hard_template": "False"
+    },
+    "aten::detach": {
+        "ops": [
+            "RemovedOp"
+        ],
+        "hard_template": "False"
+    },
+    "aten::div_": {
+        "ops": [
+            "P.Div"
+        ],
+        "hard_template": "False"
+    },
+    "aten::div": {
+        "ops": [
+            "P.Div"
+        ],
+        "hard_template": "False"
+    },
+    "aten::dropout": {
+        "ops": [
+            "nn.Dropout"
+        ],
+        "hard_template": "False"
+    },
+    "aten::embedding": {
+        "ops": [
+            "nn.Embedding"
+        ],
+        "hard_template": "False"
+    },
+    "aten::empty": {
+        "ops": [
+            "empty"
+        ],
+        "hard_template": "False"
+    },
+    "aten::eq": {
+        "ops": [
+            "P.Equal"
+        ],
+        "hard_template": "False"
+    },
+    "aten::exp": {
+        "ops": [
+            "P.Exp"
+        ],
+        "hard_template": "False"
+    },
+    "aten::expand_as": {
+        "ops": [
+            "expand_as"
+        ],
+        "hard_template": "False"
+    },
+    "aten::expand": {
+        "ops": [
+            "broadcast_to"
+        ],
+        "hard_template": "False"
+    },
+    "aten::flatten": {
+        "ops": [
+            "P.Reshape"
+        ],
+        "hard_template": "False"
+    },
+    "aten::fill_": {
+        "ops": [
+            "fill"
+        ],
+        "hard_template": "False"
+    },
+    "aten::fill": {
+        "ops": [
+            "fill"
+        ],
+        "hard_template": "False"
+    },
+    "aten::floor_divide": {
+        "ops": [
+            "P.FloorDiv"
+        ],
+        "hard_template": "False"
+    },
+    "aten::full_like": {
+        "ops": [
+            "full_like"
+        ],
+        "hard_template": "False"
+    },
+    "aten::full": {
+        "ops": [
+            "full"
+        ],
+        "hard_template": "False"
+    },
+    "aten::gelu": {
+        "ops": [
+            "P.Erf()",
+            "P.Sqrt()"
+        ],
+        "hard_template": "True"
+    },
+    "aten::gt": {
+        "ops": [
+            "P.Greater"
+        ],
+        "hard_template": "False"
+    },
+    "aten::im2col": {
+        "ops": [
+            "P.ExpandDims()",
+            "nn.Pad()",
+            "nn.Unfold()",
+            "P.Concat()"
+        ],
+        "hard_template": "True"
+    },
+    "aten::index_select": {
+        "ops": [
+            "index_select"
+        ],
+        "hard_template": "False"
+    },
+    "aten::index": {
+        "ops": [
+            "index"
+        ],
+        "hard_template": "False"
+    },
+    "aten::layer_norm": {
+        "ops": [
+            "nn.LayerNorm"
+        ],
+        "hard_template": "False"
+    },
+    "aten::le": {
+        "ops": [
+            "P.LessEqual"
+        ],
+        "hard_template": "False"
+    },
+    "aten::log_softmax": {
+        "ops": [
+            "nn.LogSoftmax"
+        ],
+        "hard_template": "False"
+    },
+    "aten::log": {
+        "ops": [
+            "P.Log"
+        ],
+        "hard_template": "False"
+    },
+    "aten::lt": {
+        "ops": [
+            "P.Less"
+        ],
+        "hard_template": "False"
+    },
+    "aten::masked_fill_": {
+        "ops": [
+            "P.MaskedFill"
+        ],
+        "hard_template": "False"
+    },
+    "aten::masked_fill": {
+        "ops": [
+            "P.MaskedFill"
+        ],
+        "hard_template": "False"
+    },
+    "aten::matmul": {
+        "ops": [
+            "P.matmul"
+        ],
+        "hard_template": "False"
+    },
+    "aten::mean": {
+        "ops": [
+            "mean"
+        ],
+        "hard_template": "False"
+    },
+    "aten::min": {
+        "ops": [
+            "P.Minimum"
+        ],
+        "hard_template": "False"
+    },
+    "aten::mul_": {
+        "ops": [
+            "P.Mul"
+        ],
+        "hard_template": "False"
+    },
+    "aten::mul": {
+        "ops": [
+            "P.Mul"
+        ],
+        "hard_template": "False"
+    },
+    "aten::multiply": {
+        "ops": [
+            "P.Mul"
+        ],
+        "hard_template": "False"
+    },
+    "aten::max_pool1d": {
+        "ops": [
+            "name"
+        ],
+        "hard_template": "False"
+    },
+    "aten::ne": {
+        "ops": [
+            "P.NotEqual"
+        ],
+        "hard_template": "False"
+    },
+    "aten::neg": {
+        "ops": [
+            "P.Neg"
+        ],
+        "hard_template": "False"
+    },
+    "aten::new_ones": {
+        "ops": [
+            "new_ones"
+        ],
+        "hard_template": "False"
+    },
+    "aten::new_zeros": {
+        "ops": [
+            "new_zeros"
+        ],
+        "hard_template": "False"
+    },
+    "aten::nll_loss": {
+        "ops": [
+            "P.NLLLoss"
+        ],
+        "hard_template": "False"
+    },
+    "aten::ones_like": {
+        "ops": [
+            "ones_like"
+        ],
+        "hard_template": "False"
+    },
+    "aten::ones": {
+        "ops": [
+            "ones"
+        ],
+        "hard_template": "False"
+    },
+    "aten::permute": {
+        "ops": [
+            "transpose"
+        ],
+        "hard_template": "False"
+    },
+    "aten::pow": {
+        "ops": [
+            "P.Pow"
+        ],
+        "hard_template": "False"
+    },
+    "aten::reciprocal": {
+        "ops": [
+            "P.Reciprocal"
+        ],
+        "hard_template": "False"
+    },
+    "aten::relu": {
+        "ops": [
+            "nn.ReLU"
+        ],
+        "hard_template": "False"
+    },
+    "aten::repeat_interleave": {
+        "ops": [
+            "repeat"
+        ],
+        "hard_template": "False"
+    },
+    "aten::repeat": {
+        "ops": [
+            "P.Tile"
+        ],
+        "hard_template": "False"
+    },
+    "aten::reshape_as": {
+        "ops": [
+            "reshape_as"
+        ],
+        "hard_template": "False"
+    },
+    "aten::reshape": {
+        "ops": [
+            "reshape"
+        ],
+        "hard_template": "False"
+    },
+    "aten::rsqrt": {
+        "ops": [
+            "P.Rsqrt"
+        ],
+        "hard_template": "False"
+    },
+    "aten::rsub": {
+        "ops": [
+            "P.RSub"
+        ],
+        "hard_template": "False"
+    },
+    "aten::select": {
+        "ops": [
+            "PrimOp"
+        ],
+        "hard_template": "False"
+    },
+    "aten::size": {
+        "ops": [
+            "P.Shape"
+        ],
+        "hard_template": "False"
+    },
+    "aten::slice": {
+        "ops": [
+            "prim_slice"
+        ],
+        "hard_template": "False"
+    },
+    "aten::softmax": {
+        "ops": [
+            "nn.Softmax"
+        ],
+        "hard_template": "False"
+    },
+    "aten::split": {
+        "ops": [
+            "P.Split"
+        ],
+        "hard_template": "False"
+    },
+    "aten::squeeze": {
+        "ops": [
+            "P.Squeeze"
+        ],
+        "hard_template": "False"
+    },
+    "aten::stack": {
+        "ops": [
+            "P.Stack"
+        ],
+        "hard_template": "False"
+    },
+    "aten::sub": {
+        "ops": [
+            "P.Sub"
+        ],
+        "hard_template": "False"
+    },
+    "aten::sum": {
+        "ops": [
+            "sum"
+        ],
+        "hard_template": "False"
+    },
+    "aten::t": {
+        "ops": [
+            "transpose"
+        ],
+        "hard_template": "False"
+    },
+    "aten::tanh": {
+        "ops": [
+            "nn.Tanh"
+        ],
+        "hard_template": "False"
+    },
+    "aten::to": {
+        "ops": [
+            "P.Cast"
+        ],
+        "hard_template": "False"
+    },
+    "aten::transpose": {
+        "ops": [
+            "P.Transpose"
+        ],
+        "hard_template": "False"
+    },
+    "aten::type_as": {
+        "ops": [
+            "P.Cast"
+        ],
+        "hard_template": "False"
+    },
+    "aten::unsqueeze": {
+        "ops": [
+            "P.ExpandDims"
+        ],
+        "hard_template": "False"
+    },
+    "aten::view": {
+        "ops": [
+            "view"
+        ],
+        "hard_template": "False"
+    },
+    "aten::where": {
+        "ops": [
+            "where"
+        ],
+        "hard_template": "False"
+    },
+    "aten::zeros_like": {
+        "ops": [
+            "zeros_like"
+        ],
+        "hard_template": "False"
+    },
+    "aten::zeros": {
+        "ops": [
+            "zeros"
+        ],
+        "hard_template": "False"
+    }
+}

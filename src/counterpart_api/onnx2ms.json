@@ -1,0 +1,373 @@
+{
+    "onnx::Abs": {
+        "ops": [
+            "P.Abs"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Acos": {
+        "ops": [
+            "P.ACos"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Acosh": {
+        "ops": [
+            "P.ACosh"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Add": {
+        "ops": [
+            "P.Add"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Asin": {
+        "ops": [
+            "P.Asin"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Asinh": {
+        "ops": [
+            "P.ASinh"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Atan": {
+        "ops": [
+            "P.Atan"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Atanh": {
+        "ops": [
+            "P.Atanh"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::AveragePool": {
+        "ops": [
+            "nn.AvgPool1d",
+            "nn.AvgPool2d",
+            "nn.AvgPool3D"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::BatchNormalization": {
+        "ops": [
+            "nn.BatchNorm1d",
+            "nn.BatchNorm2d",
+            "nn.BatchNorm3d"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Cast": {
+        "ops": [
+            "P.Cast"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Ceil": {
+        "ops": [
+            "P.Ceil"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Clip": {
+        "ops": [
+            "P.clip_by_value"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Concat": {
+        "ops": [
+            "P.Concat"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Conv": {
+        "ops": [
+            "nn.Conv1d",
+            "nn.Conv2d",
+            "nn.Conv3d"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::ConvTranspose": {
+        "ops": [
+            "nn.Conv3dTranspose",
+            "P.Conv2DBackpropInput"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Cos": {
+        "ops": [
+            "P.Cos"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::CumSum": {
+        "ops": [
+            "P.CumSum"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Div": {
+        "ops": [
+            "P.Div"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Dropout": {
+        "ops": [
+            "nn.Dropout"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Einsum": {
+        "ops": [
+            "P.MatMul"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Erf": {
+        "ops": [
+            "P.Erf"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Exp": {
+        "ops": [
+            "P.Exp"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Flatten": {
+        "ops": [
+            "nn.Flatten"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Floor": {
+        "ops": [
+            "P.Floor"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Gather": {
+        "ops": [
+            "P.Gather"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Gemm": {
+        "ops": [
+            "nn.Dense"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::GlobalAveragePool": {
+        "ops": [
+            "nn.AvgPool1d",
+            "nn.AvgPool2d"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Greater": {
+        "ops": [
+            "P.Greater"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::LSTM": {
+        "ops": [
+            "nn.LSTM"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::LeakyRelu": {
+        "ops": [
+            "nn.LeakyReLU"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Log": {
+        "ops": [
+            "P.Log"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::MatMul": {
+        "ops": [
+            "P.matmul"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::MaxPool": {
+        "ops": [
+            "nn.MaxPool1d",
+            "nn.MaxPool2d",
+            "P.MaxPool3D"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Mul": {
+        "ops": [
+            "P.Mul"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Neg": {
+        "ops": [
+            "P.Neg"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Not": {
+        "ops": [
+            "P.LogicalNot"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::OneHot": {
+        "ops": [
+            "nn.OneHot"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::PRelu": {
+        "ops": [
+            "nn.PReLU"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Pad": {
+        "ops": [
+            "nn.Pad"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Pow": {
+        "ops": [
+            "P.Pow"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Reciprocal": {
+        "ops": [
+            "P.Reciprocal"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::ReduceMean": {
+        "ops": [
+            "P.ReduceMean"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::ReduceSum": {
+        "ops": [
+            "P.ReduceSum"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Relu": {
+        "ops": [
+            "nn.ReLU6",
+            "nn.ReLU"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Reshape": {
+        "ops": [
+            "P.Reshape"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Resize": {
+        "ops": [
+            "P.ResizeBilinear"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Rsqrt": {
+        "ops": [
+            "P.Rsqrt"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Sigmoid": {
+        "ops": [
+            "nn.Sigmoid"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Sin": {
+        "ops": [
+            "P.Sin"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Slice": {
+        "ops": [
+            "P.StridedSlice"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Softmax": {
+        "ops": [
+            "nn.Softmax"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Split": {
+        "ops": [
+            "P.Split"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Sqrt": {
+        "ops": [
+            "P.Sqrt"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Squeeze": {
+        "ops": [
+            "P.Squeeze"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Sub": {
+        "ops": [
+            "P.Sub"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Tanh": {
+        "ops": [
+            "nn.Tanh"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Transpose": {
+        "ops": [
+            "P.Transpose"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Unsqueeze": {
+        "ops": [
+            "P.ExpandDims"
+        ],
+        "hard_template": "False"
+    },
+    "onnx::Where": {
+        "ops": [
+            "P.Select"
+        ],
+        "hard_template": "False"
+    }
+}

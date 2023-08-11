@@ -1,0 +1,12 @@
+rules:
+  - id: cpp_assertion
+    patterns:
+      - pattern: $NAME(...);
+      - metavariable-regex:
+          metavariable: $NAME
+          regex: PADDLE_ENFORCE.+
+    message: |
+      Semgrep found a match
+    severity: WARNING
+    languages:
+      - c++
